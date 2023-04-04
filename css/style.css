@@ -1,3 +1,26 @@
+.btn-success{
+     background-color: #29A744;
+}
+
+.bg-img{     
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/ba1.jpg");
+     background-color: rgba(0, 0, 0);
+     height: 100vh;
+     background-size: cover;
+}
+
 .color-verde-tickets{
      color: #3E9755;
+}
+
+.texto-img{
+     position: absolute;
+     top: 50%;
+     max-width: 25%;
+     text-align: end;
+     right: 0;
+}
+
+.sombra-img{
+     background-color: black;
 }
