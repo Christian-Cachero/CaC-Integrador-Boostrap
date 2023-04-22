@@ -1,3 +1,7 @@
+body{
+     position: relative;
+}
+
 .p-footer{
      padding-left: 3.1rem;
      padding-right: 3.1rem;
