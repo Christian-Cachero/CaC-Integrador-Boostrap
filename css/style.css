@@ -1,3 +1,47 @@
+/*Estilos de comprar_ticket*/
+.anchoForm{
+     max-width: 49rem;
+}
+
+.margeNegativo{
+     margin-top: -0.25rem;
+}
+
+html, body{ 
+     height: 100vh !important; 
+}
+
+.border-info{
+     border-color: #B8DAFF !important;
+}
+
+.bg-info{
+     background-color: #CCE5FF !important;
+}
+
+.text-info::placeholder{
+     color: #004085;
+}
+
+.border-success{
+     border-color: #17A2B8 !important;
+}
+
+.border-primary{ 
+     border-color: #007BFF !important;
+}
+
+.tamaño-cards{
+     width: 15.5rem;
+     height: 14rem; 
+}
+
+.p-cards{
+     padding-left: 0rem !important;
+     padding-right: 0rem !important;
+}
+/*////////////////////////////////////////*/
+
 body{
      position: relative;
 }
