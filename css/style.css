@@ -1,13 +1,3 @@
-/*Estilos para alinear la 2da tabla*/
-
-.primer-columna{
-     width: 36.5%;
-}
-
-.segunda-columna{
-     width: 36.9%;
-}
-
 /*Estilos de comprar_ticket*/
 .anchoForm{
      max-width: 49rem;
