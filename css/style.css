@@ -1,3 +1,13 @@
+/*Estilos para alinear la 2da tabla*/
+
+.primer-columna{
+     width: 36.5%;
+}
+
+.segunda-columna{
+     width: 36.9%;
+}
+
 /*Estilos de comprar_ticket*/
 .anchoForm{
      max-width: 49rem;
@@ -31,16 +41,12 @@ html, body{
      border-color: #007BFF !important;
 }
 
-.tamaño-cards{
-     width: 15.5rem;
-     height: 14rem; 
-}
-
 .p-cards{
      padding-left: 0rem !important;
      padding-right: 0rem !important;
 }
 /*////////////////////////////////////////*/
+
 
 body{
      position: relative;
@@ -77,19 +83,69 @@ body{
      color: #3E9755;
 }
 
-.bg-img{     
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg");
-     height: 100vh;
-     max-width: 100%;
-     background-size: cover;
-     position: relative;
+/*tamaño grande*/
+@media screen and (min-width: 916px) {
+
+     .bg-img{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg");
+          height: 100vh;
+          max-width: 100%;
+          background-size: cover;
+          position: relative;
+     }
+     .texto-img{
+          position: absolute;
+          bottom: 38%;
+          max-width: 25%;
+          right: 8.1rem;
+     }
+
+     .tamaño-form-oradores{
+          width: 50%;
+     }
+
+     .tamaño-cards{
+          width: 15.5rem;
+          height: 14rem;
+     }
 }
 
-.texto-img{
-     position: absolute;
-     top: 38%;
-     max-width: 25%;
-     right: 8.1rem;
+/*tamaño pequeño*/
+@media screen and (max-width: 916px) {
+    .bg-img{
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg");
+         height: 100vh;
+         max-width: 100%;
+         background-size: cover;
+         position: relative;
+    }
+
+    .texto-img{
+         position: absolute;
+         top: 38%;
+         left: 8%;
+         max-width: max-content;
+         overflow-wrap: break-word;
+    }
+
+    .tamaño-form-oradores{
+         width: 100%;
+    }
+
+    .margin-top-input{
+        margin-top: 1rem !important;
+    }
+
+    .tamaño-cards{
+        height: 14rem;
+        margin-bottom: 0.75rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+
+    .margin-tablas-oradores{
+        margin-left: -0.3rem;
+    }
 }
 
 .sombra-img{
